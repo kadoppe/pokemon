@@ -1,4 +1,4 @@
-# Pokemon
+# Pokemon [![Code Climate](https://codeclimate.com/github/kadoppe/pokemon/badges/gpa.svg)](https://codeclimate.com/github/kadoppe/pokemon)
 
 Support tool for pokemon battle.
 
