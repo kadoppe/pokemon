@@ -1,5 +1,5 @@
-require "pokemon/version"
+require 'pokemon/version'
 
+# WIP
 module Pokemon
-  # Your code goes here...
 end
