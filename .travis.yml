@@ -1,9 +1,11 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.4.0
+- 2.4.0
 before_install: gem install bundler -v 1.13.7
-
 script:
-  - bundle exec rubocop
-  - bundle exec rspec
+- bundle exec rubocop
+- bundle exec rspec
+notifications:
+  slack:
+    secure: o4W+2wHnOxCQX9KxwPVwkyCl+GeOh60M2Nr3Aq4YwM5MKZ6G+wMkW27Q9L6Y7jFPPA4+YKclcqhDJHauOEJuW+n9ccbG1V3LALuSLvAyMJAp3Kyj9ib1k81fnJMDDAotdp/4ob4iob2VqVjRd7UKGCyxBQ3txQX70ldafncRj4+PMjg0ueAc3lkBfUbyT8RkpC/jQd304r0zHG0xk1PiG5z8r3yn4fFdrNm8GiGEbrO2LAOnzym46W6wkcWcCLFCTa8Zsrl+9h6UF8FRsNc/BSatk9X0cvuYTQi7cDI0XBv5mqScfTxdMh+Lb5/wEYZwpEhuZRHEWBYEGzyW5oPxCNoFHye52K61uoWBi4SOnaxNydMngyf7Fi85hDzwgKz2a77R+qkLEhblPZkXHz0WmIMAWgTs3l7giJBiDdfVg8l2x73QsT/1XyfndJdU3dldJpW7x2tkEq7ycwd/2cLOWONpSq8kUvR02pHwJNG4RZE0KeBkteaeNGvV8ArfrYvEVCMcr0eg4NrLk8zh+0cn63JsqxjOUzmMHCndsVDeQaj0GeukjvvWi+akYjjxBfs8hv86RvHq5RXIEJ6PP007o6xGk20ruMLVW/OZXLwm15+vYFfmmVb+ZV7TIW/azjjpH4J6rgtZ0Fswwtke+bxzPdU0PBnwSl+czD57G0DvgdI=
